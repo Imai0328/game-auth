@@ -28,7 +28,9 @@ export default function Home() {
     return (
       <div>
         <h1>You passed.</h1>
-        <input type="password" name="password"/>
+      
+        <input type="password" id="password" name="password" placeholder="パスワードを入力" 
+               style={{backgroundColor: "#f0f0f0", color: "#333", border: "1px solid #ccc", padding: "10px", borderRadius: "5px"}}/>
         <input type="submit" name="submit"/>
       </div>
     );
